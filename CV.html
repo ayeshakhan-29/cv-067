@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        
+            <div class="left">
+            <div class="contactInfo">
+                <div class="image-container">
+                    <img src="./asha.jpeg" alt="CVpic" class="image">
+                </div>
+                <h2 class="name">Ayesha Rashid Khan</h2>
+                <h3 class="title">CONTACT</h3>
+                <ul>
+                    <li><i class="fa-regular fa-envelope"></i> aarkk.29@gmail.com</li>
+                    <li><i class="fa-solid fa-phone"></i> +923219311116</li>
+                    <li><i class="fa-solid fa-location-dot"></i> Lahore, Pakistan</li>
+                    <li><i class="fa-brands fa-linkedin"></i> www.linkedin.com/ayeshar9</li>
+                </ul>
+                <div class="experience"><h3>EXPERIENCE</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore dolore minima doloribus, assumenda consectetur eaque illo recusandae neque voluptas iure ipsum delectus provident quidem eius consequatur harum quas! Perferendis, totam!</p></div>
+                <div class="Languages">
+                    <h3 class="title">LANGUAGE</h3>
+                    <ul class="list">
+                        <li class="listItem">
+                            <span class="text">English</span>   
+                        </li>
+                        <li class="listItem">
+                            <span class="text">Urdu</span></li>
+                        <li class="listItem">
+                            <span class="text">Punjabi</span>
+                        </li>
+                        <button class="button">Download CV</button>
+                    </ul>
+                </div>
+            </div>
+    
+        </div>
+        <div class="right">
+            <h2>ABOUT ME</h2>
+            <div><h3>BASIC INFORMATION</h3>
+            <ul class="listItem-1">
+                <li>Age: 21</li>
+                <li>Gender: Female</li>
+                <li>Date of birth: 29/12/2000</li>
+                <li>Marital Status: Single</li>
+
+
+            </ul>
+            </div>
+            <h3>CAREER OBJECTIVE</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque maiores totam velit aut asperiores ea, quo iusto adipisci quod id, ex neque magni recusandae veniam porro consectetur voluptatibus assumenda. Dolorum.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet inventore recusandae eaque ad vel ut magnam aliquam deleniti et, eius non architecto ea aspernatur laboriosam dolore distinctio soluta earum aperiam?</p>
+            <div><h3>EDUCATION</h3>
+            <div class="edu"><h4>Bachelor</h4><p>Bs in Computer Science, COMSATS University, Lahore</p></div>
+            <div class="edu"><h4>Higher Education</h4><p>Fsc pre-engineering, Punjab Group of Colleges, Lahore</p></div>
+            <div class="edu"><h4>Secondary Education</h4><p>O-levels, Beacon House School System, Lahore</p></div>
+            </div>
+            
+            
+    <div class="about-skills">
+        <h2>Skills</h2>
+        <div class="skill">
+            <h4 style="color: black;">HTML</h4>
+            <progress id="file" value="50" max="100"> 32% </progress>
+        </div>
+
+        <div class="skill">
+            <h4 style="color: black;">CSS</h4>
+            <progress id="file" value="50" max="70"> 32% </progress>
+        </div>
+
+        <div class="skill">
+            <h4 style="color: black;">Database</h4>
+            <progress id="file" value="50" max="50"> 32% </progress>
+        </div>
+
+        <div class="skill">
+            <h4 style="color: black;">C#</h4>
+            <progress id="file" value="50" max="90"> 32% </progress>
+        </div>
+
+</div>
+        </div>
+    
+    </div>
+</body>
+<style>
+    body {
+        background-color: rgb(166, 144, 187);
+    }
+    .container{
+    position: relative;
+    width: 80%;
+    height: 90%;
+    background: #fff;
+    margin: 4rem auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+    
+    .left {
+        background-color: rgb(120, 88, 150);
+        width: 80%;
+        height: 94%;
+        justify-content: center;
+        position: relative;
+        margin: 0px;
+        padding: 40px;
+    }
+
+    .image-container{
+        height: 30vh;
+        width: 80%;
+        margin: 1rem auto;
+        border-radius: 42%;
+        justify-content: centre;
+    }
+    .image{
+        height: 30vh;
+        border-radius: 42%;
+    }
+    
+    .contactInfo{
+        margin-right: 2.2rem;
+        justify-content: center;
+    }
+    .name{
+        margin-left: 2rem ;
+    }
+    .right {
+        background-color: rgb(199, 179, 218);
+        position: relative;
+        padding: 40px;    
+        height: 94%;
+    }
+    .contactInfo ul{
+            list-style-type: none;
+    }
+    
+    .title{
+        font-size: 20px;
+        letter-spacing: 2px;
+        text-align: center;
+        margin-bottom: 10px;
+        color: rgb(233, 227, 238);
+    }
+    .edu{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .edu p{
+
+        margin-left: 5rem;
+    }
+    .edu h4{
+        background-color: rgb(123, 75, 168);
+        border: 2px solid black;
+        border-radius: .2rem;
+        padding: 1%;
+    }
+    /*.skills li{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: 30px;
+        background-color: rgb(122, 99, 143);
+        border: solid black;
+        flex-direction: column;
+        align-items: center;
+    }*/
+    .skill{
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+}
+    .experience h3{
+        text-align: center;
+        color: aliceblue;
+    }
+    .button{
+        margin-left: 35px;
+        justify-content: center;
+        border-color: aliceblue;
+        margin-top: .5rem;
+    }
+    .listItem-1{
+        text-align: left;
+        cursor: pointer;
+        padding: 2%;
+        margin-right: 3rem;
+        font-weight: 500;
+        list-style: none;
+    }
+button:hover{
+    cursor: pointer;
+    background-color: rgb(161, 108, 211);
+    transition: 2s;
+    display: block;
+}
+.about-skills h4{
+    padding: 1px;
+    
+}
+</style>
+
+</html>
